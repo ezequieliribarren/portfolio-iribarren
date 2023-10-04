@@ -15,19 +15,25 @@ const Navbar = () => {
         <Link smooth to="#sobre-mi">
           <li className={`nav-item ${selectedItem === 'sobre-mi' ? 'active' : ''}`} onClick={() => handleItemClick('sobre-mi')}>
           <div className='line'></div>
-          <a>Sobre Mi</a>
+          <a>SOBRE MI</a>
           </li>
         </Link>
         <Link smooth to="#proyectos">
           <li className={`nav-item ${selectedItem === 'proyectos' ? 'active' : ''}`} onClick={() => handleItemClick('proyectos')}>
             <div className='line'></div>
-          <a>Proyectos</a>
+          <a>PROYECTOS</a>
           </li>
         </Link>
         <Link smooth to="#experiencia">
           <li className={`nav-item ${selectedItem === 'experiencia' ? 'active' : ''}`} onClick={() => handleItemClick('experiencia')}>
           <div className='line'></div>
-            <a>Experiencia</a>
+            <a>EXPERIENCIA</a>
+          </li>
+        </Link>
+        <Link smooth to="#experiencia">
+          <li className={`nav-item ${selectedItem === 'experiencia' ? 'active' : ''}`} onClick={() => handleItemClick('experiencia')}>
+          <div className='line'></div>
+            <a>CONTACTO</a>
           </li>
         </Link>
       </ul>

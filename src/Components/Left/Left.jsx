@@ -4,10 +4,10 @@ import Navbar from '../Nabvar/Navbar'
 
 const Left = () => {
   return (
-    <>
-<Header/>
-<Navbar/>
-    </>
+    <div className="col-md-6 left-section">
+      <Header />
+      <Navbar />
+    </div>
   )
 }
 
