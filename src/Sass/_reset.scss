@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+    h1 {
+        font-size: 3.8rem;
+        font-family: sol;
+        color: white;
+    }
+
+    h2{
+        font-size: 2.4rem;
+        font-family: inter;
+        color: white;
+        margin: 1rem 0;
+    }
+
+    p{
+        font-size: 1.4rem;
+        font-family: inter-reg;
+        color: #9CB6AC;
+        margin: 2rem 0;
+        width: 85%;
+    }
+
+    a{
+        font-size: 1.5rem;
+        font-family: inter-reg;
+        text-decoration: none;
+        color: white;
+      }
+}
+
+body{
+    background: #142620;
+}
+
+.container{
+    margin-top: 5rem;
+}
+
+@font-face {
+    font-family: "sol";
+    src: url(/public/fonts/SolThin.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(/public/fonts/Inter.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "inter-reg";
+    src: url(/public/fonts/Inter-reg.ttf);
+    font-display: swap;
+}

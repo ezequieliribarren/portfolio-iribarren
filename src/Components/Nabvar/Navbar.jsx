@@ -1,63 +1,38 @@
 import React, { useState } from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 const Navbar = () => {
-    const [selectedButton, setSelectedButton] = useState(null);
+  const [selectedItem, setSelectedItem] = useState(null);
 
-    const handleButtonClick = (section) => {
-        setSelectedButton(section);
-        // Puedes personalizar la duración, el desplazamiento y otras opciones aquí
-        scroll.scrollTo(section, {
-            duration: 800,
-            offset: -50, // Ajusta el valor de compensación según sea necesario
-            smooth: 'easeInOutQuad', // Tipo de animación
-        });
-    };
+  const handleItemClick = (itemName) => {
+    setSelectedItem(itemName);
+  };
 
-    return (
-        <nav className="navbar">
-            <ul className="navbar-list">
-                <Link
-                    to="experiencia"
-                    spy={true}
-                    smooth={true}
-                    offset={-50}
-                    duration={800}
-                    onClick={() => handleButtonClick('experiencia')}
-                >
-                    <li className={`navbar-item ${selectedButton === 'experiencia' ? 'active' : ''}`}>
-
-                        Experiencia
-
-                    </li>
-                </Link>
-                <li className={`navbar-item ${selectedButton === 'sobre-mi' ? 'active' : ''}`}>
-                    <Link
-                        to="sobre-mi"
-                        spy={true}
-                        smooth={true}
-                        offset={-50}
-                        duration={800}
-                        onClick={() => handleButtonClick('sobre-mi')}
-                    >
-                        Sobre mí
-                    </Link>
-                </li>
-                <li className={`navbar-item ${selectedButton === 'proyectos' ? 'active' : ''}`}>
-                    <Link
-                        to="proyectos"
-                        spy={true}
-                        smooth={true}
-                        offset={-50}
-                        duration={800}
-                        onClick={() => handleButtonClick('proyectos')}
-                    >
-                        Proyectos
-                    </Link>
-                </li>
-            </ul>
-        </nav>
-    );
+  return (
+    <nav className="navbar">
+      <ul>
+        <Link smooth to="#sobre-mi">
+          <li className={`nav-item ${selectedItem === 'sobre-mi' ? 'active' : ''}`} onClick={() => handleItemClick('sobre-mi')}>
+          <div className='line'></div>
+          <a>Sobre Mi</a>
+          </li>
+        </Link>
+        <Link smooth to="#proyectos">
+          <li className={`nav-item ${selectedItem === 'proyectos' ? 'active' : ''}`} onClick={() => handleItemClick('proyectos')}>
+            <div className='line'></div>
+          <a>Proyectos</a>
+          </li>
+        </Link>
+        <Link smooth to="#experiencia">
+          <li className={`nav-item ${selectedItem === 'experiencia' ? 'active' : ''}`} onClick={() => handleItemClick('experiencia')}>
+          <div className='line'></div>
+            <a>Experiencia</a>
+          </li>
+        </Link>
+      </ul>
+    </nav>
+  );
 };
 
 export default Navbar;

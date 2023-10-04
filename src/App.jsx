@@ -1,4 +1,7 @@
-import Navbar from "./Components/Nabvar/Navbar"
+import Left from "./Components/Left/Left"
+import Right from "./Components/Right/Right"
+import "bootstrap/dist/css/bootstrap.min.css"
+
 
 
 
@@ -6,9 +9,20 @@ function App() {
 
 
   return (
-    <>
-    <Navbar/>
-    </>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-6">
+          <Left />
+        </div>
+        <div className="col-md-6">
+          <Right />
+        </div>
+
+      </div>
+
+    </div>
+
+
   )
 }
 

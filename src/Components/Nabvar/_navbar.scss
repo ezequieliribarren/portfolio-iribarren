@@ -1,0 +1,30 @@
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.line {
+    height: 2px;
+    width: 3rem;
+    margin-right: 0.5rem;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+li:hover {
+
+    .line {
+        background-color: #9CB6AC;
+        width: 6rem;
+    }
+
+    a {
+        color: #9CB6AC !important;
+    }
+}
+
+.active .line {
+    width: 6rem;
+}
