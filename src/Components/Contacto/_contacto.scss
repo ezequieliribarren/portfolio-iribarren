@@ -1,17 +1,55 @@
-#contacto{
+#contacto {
     margin-top: 8rem;
-    
+
 }
-#contacto:hover{
-    .arrow{
+
+#contacto:hover {
+    .arrow {
         transform: translate(1.5rem);
         transition: 0.3s ease;
-     }   
+    }
 }
 
 .form-group {
     margin-bottom: 20px;
     text-align: left;
+}
+
+.enviado {
+    background-color: #00332f;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.enviadoBlank {
+    background-color: #007D73;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 3rem;
+
+    h2,
+    h3 {
+        color: white
+    }
+
+    h2 {
+        font-size: 4rem;
+        margin-bottom: 3rem;
+        font-family: sol;
+    }
+
+    h3 {
+        font-size: 2.4rem;
+        margin-bottom: 5rem;
+    }
+
 }
 
 
@@ -29,7 +67,7 @@ textarea {
     width: 80%;
 }
 
-input::placeholder{
+input::placeholder {
     font-family: source;
 
 }
