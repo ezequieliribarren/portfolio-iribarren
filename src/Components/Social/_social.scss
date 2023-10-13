@@ -1,0 +1,13 @@
+.social{
+    margin-top: 8rem;
+    a{
+        margin: 0 1rem;
+    }
+    .social-link .social-image {
+        transition: filter 0.3s ease;
+    }
+    
+    .social-link:hover .social-image {
+        filter: brightness(1.4); /* Cambia el valor para ajustar el brillo al pasar el mouse */
+    }
+}

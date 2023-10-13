@@ -1,4 +1,10 @@
 @use './Sass/reset';
 @use './Components/Nabvar/navbar';
+@use './Components/Header/header';
 @use './Components/SobreMi/sobreMi';
 @use './Components/Proyectos/proyectos';
+@use './Components/Left/Left.scss';
+@use './Components/Right/right';
+@use './Components/Social/social';
+@use './Components/Curriculum/curriculum';
+@use './Components/Contacto/contacto';

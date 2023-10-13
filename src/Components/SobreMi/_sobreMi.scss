@@ -1,5 +1,13 @@
 #sobre-mi{
+    width: 100%;
     p{
         margin-top: 0;
     }
+}
+
+#sobre-mi:hover{
+        .arrow {
+            transform: translate(1.5rem);
+            transition: 0.3s ease;
+        }
 }

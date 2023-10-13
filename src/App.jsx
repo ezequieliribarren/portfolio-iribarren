@@ -7,9 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
 
-
   return (
-    <div className="container">
+    <div className="container-fluid p-5">
       <div className="row">
         <div className="col-md-6">
           <Left />

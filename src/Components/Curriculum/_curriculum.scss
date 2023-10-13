@@ -1,0 +1,25 @@
+#curriculum {
+    margin-top: 8rem;
+
+    a {
+        border-radius: 9999px;
+        border: 1px solid #00DAA6;
+        background: rgba(0, 218, 153, 0.20);
+        padding: 4px 12.5px 4px 12px;
+        color: #00DAA6;
+    }
+
+    a:hover {
+        background-color: #00DAA6;
+        color: #142620;
+        transition: ease 0.3s;
+    }
+
+}
+
+#curriculum:hover {
+    .arrow {
+        transform: translate(1.5rem);
+        transition: 0.3s ease;
+    }
+}

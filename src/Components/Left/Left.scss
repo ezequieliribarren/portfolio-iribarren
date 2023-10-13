@@ -1,0 +1,18 @@
+.left-section {
+    position: fixed;
+    p{
+      width: 80%;
+    }
+    padding-left: 5%;
+  }
+  
+  @media (max-width: 768px) {
+    .left-section{
+      position: inherit;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+  }
