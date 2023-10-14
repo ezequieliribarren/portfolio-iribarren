@@ -10,13 +10,14 @@ const Proyectos = () => {
                     <div className="card-projects"  key={proyecto.id} >
                         <div className="card-projects-img">
                             <a className='img-project' href={proyecto.link}  style={{ backgroundImage: `url(${proyecto.img})` }} target='_blank'> </a>
-                        </div>
+                        </div>       
                         <div className='card-projects-description'>
                             <div>
                                 <h3>{proyecto.title}</h3>
+                               
                             </div>
                             <div>
-                                <p>{proyecto.description}</p>
+                                <p>{proyecto.description}</p> <a className='ver-sitio' href={proyecto.link}> Ver Sitio</a>
                             </div>
                             <div className='card-projects-skills'>
                                 <div className='skill'> <div className='skill-img'><img src={proyecto.skill1} alt="" /></div> <h4>{proyecto.skill1name}</h4></div>

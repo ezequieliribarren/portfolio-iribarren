@@ -10,10 +10,10 @@ function App() {
   return (
     <div className="container-fluid p-5">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-lg-6">
           <Left />
         </div>
-        <div className="col-md-6">
+        <div className="col-lg-6">
           <Right />
         </div>
 
