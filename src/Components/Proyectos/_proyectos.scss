@@ -16,6 +16,7 @@
         margin: 5rem 0;
         padding: 2rem 1.5rem;
         border-radius: 0.5rem;
+        width: 100%;
 
 
         .card-projects-img {
@@ -97,5 +98,19 @@
 @media (max-width: 768px) {
     .card-projects {
         flex-direction: column;
+        align-items: center;
+        .card-projects-img,
+        .card-projects-skills {
+            align-items: center;
+        }
+        .card-projects-img{
+            margin-bottom: 2rem;
+        }
     }
+}
+
+@media (max-width: 450px) {
+.card-projects{
+    width: 40rem !important;
+}
 }
