@@ -11,10 +11,10 @@ const SobreMi = () => {
         Busco ser profesional en este ámbito, con todo lo que este trayecto significa. Pretendo enfrentar nuevos desafíos y aprender tecnologías emergentes.
       </p>
       <p>
-        Mi formación proviene de la docencia, lo que me brindó habilidades sólidas en comunicación, expresión, y una devoción por el aprendizaje constante y progresivo.
+        Mi formación proviene de la docencia, lo que me brindó habilidades sólidas en comunicación, expresión y una devoción por el aprendizaje constante y progresivo.
       </p>
       <p>
-        Actualmente trabajo con diseñadores UX/UI, Product managers y Community managers. Esta experiencia interdisciplinaria me enseña la importancia del trabajo en equipo para crear sitios web y soluciones digitales. Lo que me permitió cofundar una agencia de marketing integral<a target='_blank' href="https://versadigital.com.ar/"> Versa Digital</a>.
+        Actualmente trabajo con diseñadores UX/UI, Product managers y Community managers. Esta experiencia interdisciplinaria me enseña la importancia del trabajo en equipo para crear sitios web y soluciones digitales, lo que me permitió cofundar una agencia de marketing integral<a target='_blank' href="https://versadigital.com.ar/"> Versa Digital</a>.
       </p>
     </section>
   )

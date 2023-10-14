@@ -36,7 +36,7 @@ export const proyectos = [
         id: 3,
         img: "images/proyectos/hoop.png",
         title: "HOOP Perú",
-        description: "Sitio web de la ONG. Se trabajo en colaboracion con desarrolladores web y diseñadores UX/UI.",
+        description: "Sitio web de la ONG. Se trabajó en colaboración con desarrolladores web y diseñadores UX/UI.",
         link: "https://www.hoopperu.org/",
         skill1: "images/proyectos/html.png",
         skill1name: "HTML5",

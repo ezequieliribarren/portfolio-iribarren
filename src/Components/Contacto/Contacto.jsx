@@ -30,7 +30,7 @@ const Contacto = () => {
           <input type="tel" id="tel" name="user_tel" required placeholder='Telefono' />
         </div>
         <div className="form-group">
-          <textarea id="mensaje" name="mensaje" required placeholder='Estoy atento a tu mensaje'></textarea>
+          <textarea id="mensaje" name="mensaje" required placeholder='Tu mensaje'></textarea>
         </div>
         <button type="submit" value="Enviar">Enviar</button>
       </form>
