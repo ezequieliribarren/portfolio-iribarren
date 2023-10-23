@@ -1,4 +1,4 @@
-# Portfolio personal - Ezequiel Iribarren    ![image](https://github.com/ezequieliribarren/portfolio-iribarren/assets/105462718/3a9846c8-0470-4566-a53b-af9c9deb9433)
+# Portfolio personal - Ezequiel Iribarren           ![image](https://github.com/ezequieliribarren/portfolio-iribarren/assets/105462718/3a9846c8-0470-4566-a53b-af9c9deb9433)
 
 - [Enlace a mi Portfolio](https://ezequieliribarren.com/)
 
