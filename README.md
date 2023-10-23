@@ -1,8 +1,10 @@
-# Proyecto Portfolio de [Tu Nombre] - Sitio Web Personal
+# Portfolio personal - Ezequiel Iribarren
 
 ![Tu Nombre](https://github.com/tu_usuario/tu_repositorio/ruta_de_la_imagen)
 
 - [Enlace a mi Portfolio](https://ezequieliribarren.com/)
+
+- ![image](https://github.com/ezequieliribarren/portfolio-iribarren/assets/105462718/9e62fabe-32f3-46be-bc64-8950382358e8)
 
 Este proyecto representa mi sitio web personal, un espacio digital que muestra los proyectos que he realizado. Esta diseñado como un sitio one page, incluye un formulario de contacto que permite a los visitantes realizar consultas y ponerse en contacto conmigo directamente y también proporciono un enlace descargable para mi currículum vitae, facilitando a los interesados acceder a mi información profesional de manera rápida y sencilla.
 
@@ -30,23 +32,21 @@ Se ofrece un enlace de descarga directa para mi currículum vitae, facilitando a
 
 ## Tecnologías Utilizadas
 
-- **React:** Utilizado para crear una interfaz de usuario interactiva y dinámica que muestra los proyectos y permite una experiencia de usuario fluida.
+- ![react](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/fd64b8f1-e248-41c1-a279-f4a4b442259d) **React:** Utilizado para crear componentes interactivos y dinámicos que ofrecen una experiencia de usuario fluida y atractiva.
 
-- **React Router:** Implementación de enrutamiento para una navegación sin problemas entre las páginas del sitio web.
+- ![devicon_reactrouter](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/707dd0b5-e274-4869-9cb4-76376784dcf8) **React Router:** Implementación de enrutamiento para una navegación sin problemas dentro del sitio web de una sola página.
 
-- **Sass:** Preprocesador CSS que facilita la organización y estilización del contenido del sitio web, proporcionando un diseño atractivo y moderno.
-
-- **Bootstrap:** Utilizado para el diseño responsivo y organización estructurada del contenido, garantizando que el sitio web se vea bien en dispositivos de diferentes tamaños.
-
-- **EmailJS:** Librería que permite el envío de correos electrónicos desde formularios de contacto en aplicaciones web, asegurando una comunicación efectiva con los visitantes del sitio.
-
+- ![sass](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/6c5ff55e-00c2-45fa-be9c-21d750e047a3) **Sass:** Preprocesador CSS que facilita la organización y estilización del contenido del sitio web.
+- ![bootstrap](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/7f991683-b7e4-41e1-bce9-696290a5d411) **Bootstrap:** Framework CSS para una maquetación rápida y diseño responsivo.
+  
+- **EmailJS:** Integración para el envío de correos electrónicos desde el formulario de contacto del sitio web, asegurando una comunicación confiable con los usuarios.
 - **Vite:** Herramienta de construcción y desarrollo rápido para aplicaciones web modernas, utilizada para optimizar el rendimiento del sitio web y garantizar una carga rápida de las páginas.
 
 ---
 
 ## Contacto
 
-Para cualquier consulta, colaboración o oportunidad laboral, no dudes en ponerte en contacto:
+Para cualquier pregunta o colaboración, no dudes en ponerte en contacto:
 
-- **E-mail:** [tu_correo@dominio.com](mailto:tu_correo@dominio.com)
-- **Sitio Web:** [Portfolio de [Tu Nombre]](https://tudominio.com/)
+- **E-mail:** [info@ezequieliribarren.com](mailto:info@ezequieliribarren.com)
+- **Sitio Web:** [Portfolio](https://ezequieliribarren.com/)
