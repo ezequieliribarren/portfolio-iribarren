@@ -34,9 +34,9 @@ Se ofrece un enlace de descarga directa para mi currículum vitae, facilitando a
 
 - ![sass](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/6c5ff55e-00c2-45fa-be9c-21d750e047a3) **Sass:** Preprocesador CSS que facilita la organización y estilización del contenido del sitio web.
 - ![bootstrap](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/7f991683-b7e4-41e1-bce9-696290a5d411) **Bootstrap:** Framework CSS para una maquetación rápida y diseño responsivo.
-  
+
 - **EmailJS:** Integración para el envío de correos electrónicos desde el formulario de contacto del sitio web, asegurando una comunicación confiable con los usuarios.
-- **Vite:** Herramienta de construcción y desarrollo rápido para aplicaciones web modernas, utilizada para optimizar el rendimiento del sitio web y garantizar una carga rápida de las páginas.
+- ![vite](https://github.com/ezequieliribarren/Dr.Rimmaudo/assets/105462718/e407de7a-6076-4d4e-a933-e60747278467) **Vite:** Herramienta utilizada para la construcción del sitio, elegido por su enfoque de carga rápida.
 
 ---
 
