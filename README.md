@@ -1,10 +1,8 @@
 # Portfolio personal - Ezequiel Iribarren
 
-![Tu Nombre](https://github.com/tu_usuario/tu_repositorio/ruta_de_la_imagen)
-
 - [Enlace a mi Portfolio](https://ezequieliribarren.com/)
-
-- ![image](https://github.com/ezequieliribarren/portfolio-iribarren/assets/105462718/9e62fabe-32f3-46be-bc64-8950382358e8)
+- 
+![image](https://github.com/ezequieliribarren/portfolio-iribarren/assets/105462718/af5b52fc-09cd-4192-bb9d-238272e5dd83)
 
 Este proyecto representa mi sitio web personal, un espacio digital que muestra los proyectos que he realizado. Esta diseñado como un sitio one page, incluye un formulario de contacto que permite a los visitantes realizar consultas y ponerse en contacto conmigo directamente y también proporciono un enlace descargable para mi currículum vitae, facilitando a los interesados acceder a mi información profesional de manera rápida y sencilla.
 
