@@ -1,8 +1,6 @@
 # Portfolio personal - Ezequiel Iribarren    ![image](https://github.com/ezequieliribarren/portfolio-iribarren/assets/105462718/3a9846c8-0470-4566-a53b-af9c9deb9433)
 
 - [Enlace a mi Portfolio](https://ezequieliribarren.com/)
-- 
-![image](https://github.com/ezequieliribarren/portfolio-iribarren/assets/105462718/af5b52fc-09cd-4192-bb9d-238272e5dd83)
 
 Este proyecto representa mi sitio web personal, un espacio digital que muestra los proyectos que he realizado. Esta diseñado como un sitio one page, incluye un formulario de contacto que permite a los visitantes realizar consultas y ponerse en contacto conmigo directamente y también proporciono un enlace descargable para mi currículum vitae, facilitando a los interesados acceder a mi información profesional de manera rápida y sencilla.
 
