@@ -20,7 +20,7 @@ const Navbar = () => {
       }
     }
   };
-  
+
 
   return (
     <>
@@ -69,34 +69,34 @@ const Navbar = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <Link smooth to="#sobre-mi">
-                  <li className="nav-item" onClick={() => handleItemClick('sobre-mi')}>
-                    SOBRE MI
-                  </li>
-                </Link>
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <Link smooth to="#sobre-mi">
+              <li className="nav-item" onClick={() => { handleItemClick('sobre-mi'); closeOffcanvas(); }}>
+                SOBRE MI
+              </li>
+            </Link>
           <Link smooth to="#proyectos">
-          <li className="nav-item">
+          <li className="nav-item" onClick={() => { handleItemClick('sobre-mi'); closeOffcanvas(); }}>
             PROYECTOS
           </li>
         </Link>
           <Link smooth to="#formacion">
-          <li className="nav-item">
+          <li className="nav-item" onClick={() => { handleItemClick('sobre-mi'); closeOffcanvas(); }}>
             FORMACION
           </li>
         </Link>
         <Link smooth to="#curriculum">
-          <li className="nav-item">
+          <li className="nav-item" onClick={() => { handleItemClick('sobre-mi'); closeOffcanvas(); }}>
             CURRICULUM
           </li>
         </Link>
         <Link smooth to="#contacto">
-        <li className="nav-item">
+        <li className="nav-item" onClick={() => { handleItemClick('sobre-mi'); closeOffcanvas(); }}>
             CONTACTO
           </li>
         </Link>

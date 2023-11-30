@@ -93,3 +93,22 @@ button {
 button:hover {
     background-color: #007D73;
 }
+
+@media (max-width: 990px) {
+    #contactForm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2rem;
+.form-group{
+    width: 100%;
+}
+        input{
+            width: 100%;
+        }
+
+        textarea{
+            width: 100%;
+        }
+    }
+}
