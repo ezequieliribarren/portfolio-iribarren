@@ -73,6 +73,11 @@ input::placeholder {
     color: white;
 }
 
+textarea::placeholder{
+    font-family: source;
+    color: white;
+}
+
 
 button {
     background-color: #00DAA6;

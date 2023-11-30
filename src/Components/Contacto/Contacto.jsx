@@ -8,7 +8,7 @@ const Contacto = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_rqyu6ei', 'template_4ly8kw5', form.current, 'uuZzsItQ7a2QmjPBb')
+    emailjs.sendForm('service_xthaauk', 'template_65mqa4v', form.current, 'EpVha9be-Hi30Au-g')
       .then((result) => {
           window.location.href = "#/enviado"
       }, (error) => {

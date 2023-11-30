@@ -5,7 +5,7 @@ export const proyectos = [
         img: "images/proyectos/artanium.png",
         title: "Artanium",
         description: "Sitio web multipagina, con navegación a traves de react-hashlink. Implementación de buscador de productos.",
-        link: "https://sitio-de-prueba-versadigital.000webhostapp.com/",
+        link: "https://www.artanium.com.ar/",
         skill1: "images/proyectos/html.png",
         skill1name: "HTML5",
         skill2: "images/proyectos/css.png",
