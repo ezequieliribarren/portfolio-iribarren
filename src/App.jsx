@@ -12,10 +12,10 @@ function App() {
     <>    
     <div className="container-xxl">
       <div className="row">
-        <div className="col-lg-6">
+        <div className="col-12 col-lg-5">
           <Left />
         </div>
-        <div className="col-lg-6">
+        <div className="col-12 col-lg-7">
           <Right />
         </div>
       </div>

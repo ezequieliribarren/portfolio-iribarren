@@ -83,6 +83,22 @@
     }
 }
 
+.offcanvas.offcanvas-end {
+    transition: transform 0.3s ease-in-out; /* Ajusta la duración y el tipo de transición según tus preferencias */
+  }
+  
+  /* Otros estilos que cambian cuando el navbar se muestra o se oculta */
+  .offcanvas.offcanvas-end.show {
+    transform: translateX(0);
+  }
+  
+  .offcanvas.offcanvas-end:not(.show) {
+    transform: translateX(100%);
+  }
+  
+  /* Otros estilos de transición según sea necesario */
+  
+
 
 @media (max-width: 1200px) {
 .navbar{
