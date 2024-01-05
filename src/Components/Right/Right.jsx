@@ -1,21 +1,33 @@
-import React from 'react'
-import SobreMi from "../SobreMi/SobreMi"
-import Proyectos from '../Proyectos/Proyectos'
-import Contacto from '../Contacto/Contacto'
-import Curriculum from '../Curriculum/Curriculum'
-import Formacion from '../Formacion/Formacion'
+import React from 'react';
+import { motion } from 'framer-motion';
+import SobreMi from "../SobreMi/SobreMi";
+import Proyectos from '../Proyectos/Proyectos';
+import Contacto from '../Contacto/Contacto';
+import Curriculum from '../Curriculum/Curriculum';
+import Formacion from '../Formacion/Formacion';
 
 const Right = () => {
- 
-  return (
-    <main className='right-section'>
-      <SobreMi />
-      <Proyectos />
-      <Formacion/>
-      <Curriculum/>
-      <Contacto />
-    </main>
-  )
-}
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { duration: 0.5 } },
+  };
 
-export default Right
+  return (
+    <motion.main
+      className='right-section'
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+    >
+      <motion.div whileHover={{ scale: 1.05 }}>
+        <SobreMi />
+      </motion.div>
+        <Proyectos />
+        <Formacion />
+        <Curriculum />
+        <Contacto />
+    </motion.main>
+  );
+};
+
+export default Right;

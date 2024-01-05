@@ -1,0 +1,55 @@
+.content-projetcts-formacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-projects-formacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60rem;
+    margin: 5rem 0;
+    padding: 2rem 1.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+
+
+    .card-projects-img-formacion {
+        flex-direction: column;
+        width: 25rem;
+
+        .img-project,
+        .img-formacion {
+            width: 200px;
+            height: 130px;
+            margin-right: 1rem;
+        }
+    }
+
+    .card-projects-description-formacion {
+        width: 35rem;
+
+        p {
+            font-size: 1.35rem;
+            padding: 0;
+        }}}
+
+
+        .card-projects-formacion:hover {
+            background-color: rgba(95, 158, 160, 0.078);
+            border: solid 1px rgba(98, 162, 164, 0.136);
+        
+            .img-formacion {
+                background-image: url(/images/diploma.png) !important; /* Aplicar la imagen directamente como fondo */
+                transition: 0.6s ease;
+            }
+        
+            h3 {
+                color: #00DAA6;
+                transition: 0.6s ease;
+            }
+        
+        }
+        
+

@@ -1,4 +1,5 @@
 import Left from "./Components/Left/Left"
+
 import Right from "./Components/Right/Right"
 import "bootstrap/dist/css/bootstrap.min.css"
 
@@ -8,7 +9,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 function App() {
 
   return (
-    <div className="container-fluid p-5">
+    <>    
+    <div className="container-xxl">
       <div className="row">
         <div className="col-lg-6">
           <Left />
@@ -16,10 +18,10 @@ function App() {
         <div className="col-lg-6">
           <Right />
         </div>
-
       </div>
-
     </div>
+
+    </>
 
 
   )

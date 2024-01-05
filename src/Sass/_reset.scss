@@ -8,6 +8,7 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 
+
     h1 {
         font-size: 3.8rem;
         font-family: sol;
@@ -25,7 +26,7 @@ html {
     .arrow {
         color: white;
         font-family: inter;
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     h4 {
@@ -51,11 +52,12 @@ html {
 }
 
 body {
-    background: #142620;
+    background: linear-gradient(to bottom, #223831,#192b25, #0b1914); 
+
 }
 
+
 .container-fluid {
-    // margin-top: 7rem;
     width: 100%;
 }
 

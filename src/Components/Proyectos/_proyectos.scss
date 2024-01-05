@@ -1,43 +1,46 @@
 #proyectos,
 #formacion {
-    width: 100%;
-    margin-top: 8rem;
 
-    .content-projetcts {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    margin-top: 14rem;
+
 
     .card-projects {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 60rem;
-        margin: 5rem 0;
-        padding: 2rem 1.5rem;
-        border-radius: 0.5rem;
         width: 100%;
+        height: 50rem;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 6rem 0;
 
+        h3 {
+            padding-left: 2rem;
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+        }
 
         .card-projects-img {
-            flex-direction: column;
-            width: 25rem;
+            display: flex !important;
+            align-items: start !important;
+            justify-content: center !important;
 
-            .img-project,
-            .img-formacion {
-                width: 200px;
-                height: 130px;
-                margin-right: 1rem;
+            .video-project {
+                width: 85%;
+                height: 100%;
+                border-radius: 0.5rem;
+                filter: grayscale(60%);
+
             }
+
         }
 
         .card-projects-description {
-            width: 35rem;
+            width: 100% !important;
+            padding-left: 2rem;
 
             p {
-                font-size: 1.35rem;
-                padding: 0;
+                font-size: 1.50rem;
+                width: 100%;
             }
         }
 
@@ -63,9 +66,14 @@
     }
 
 
-.card-projects:hover {
+    .card-projects:hover {
         background-color: rgba(95, 158, 160, 0.078);
         border: solid 1px rgba(98, 162, 164, 0.136);
+
+        .video-project {
+            filter: none;
+            transition: 0.8s ease;
+        }
 
 
         .img-project {
@@ -84,7 +92,8 @@
         }
 
         .skill {
-            -webkit-filter: brightness(1); /* Vuelve al brillo normal durante el hover */
+            -webkit-filter: brightness(1);
+            /* Vuelve al brillo normal durante el hover */
             transition: 0.6s ease;
 
         }
@@ -103,7 +112,7 @@
 
 }
 
-    
+
 #proyectos:hover,
 #formacion:hover {
     .arrow {
@@ -138,12 +147,13 @@
 @media (max-width: 500px) {
     .card-projects {
         width: 40rem !important;
-        h3{
+
+        h3 {
             text-align: center;
         }
 
-        .card-projects-img{
-      justify-content: center !important;
+        .card-projects-img {
+            justify-content: center !important;
         }
     }
 

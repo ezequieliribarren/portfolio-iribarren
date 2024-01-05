@@ -5,7 +5,8 @@ import Social from '../Social/Social'
 
 const Left = () => {
   return (
-    <div className="col-md-6 left-section">
+    <div className="left-section">
+
       <Header />
       <Navbar />
       <Social/>
