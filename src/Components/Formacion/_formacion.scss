@@ -51,5 +51,22 @@
             }
         
         }
+
+
+        @media (max-width: 750px) {
+            .card-projects-formacion{
+               flex-direction: column;
+               width: 100%;
+
+               .card-projects-img-formacion{
+                margin-bottom: 4rem;
+               }
+
+               .card-projects-description-formacion{
+               padding-left: 1rem;
+      
+               }
+        }
+        }
         
 

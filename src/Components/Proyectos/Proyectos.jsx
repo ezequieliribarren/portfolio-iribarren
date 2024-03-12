@@ -38,7 +38,7 @@ const Proyectos = () => {
                     onMouseEnter={() => handleHover(index)}
                     onMouseLeave={() => handleLeave(index)}
                 > 
-                <h3>{proyecto.title}</h3>
+             
                     <div className="card-projects-img">
                         <video
                             className='video-project'
@@ -51,8 +51,9 @@ const Proyectos = () => {
                       
                     </div>
                    <div className='card-projects-description'>
-                            <div>
-                                <p>{proyecto.description}</p> <a className='ver-sitio' href={proyecto.link}> Ver Sitio</a>
+                            <div>   
+                                <h3>{proyecto.title}</h3>
+                                <p>{proyecto.description}</p>
                             </div>
                              <div className='card-projects-skills'>
                                 <div className='skill'> <div className='skill-img'><img src={proyecto.skill1} alt="Skill" /></div> <h4>{proyecto.skill1name}</h4></div>
@@ -61,6 +62,8 @@ const Proyectos = () => {
                                 <div className='skill'> <div className='skill-img'><img src={proyecto.skill4} alt="Skill" /></div> <h4>{proyecto.skill4name}</h4></div>
                                 <div className='skill'> <div className='skill-img'><img src={proyecto.skill5} alt="Skill" /></div> <h4>{proyecto.skill5name}</h4></div>
                             </div>
+                            <div className='link-ver-sitio'><a className='ver-sitio' href={proyecto.link}>Ver sitio</a>
+                                </div>
                         </div>   
                     
                     </div></div>
