@@ -62,7 +62,7 @@ const Proyectos = () => {
                                 <div className='skill'> <div className='skill-img'><img src={proyecto.skill4} alt="Skill" /></div> <h4>{proyecto.skill4name}</h4></div>
                                 <div className='skill'> <div className='skill-img'><img src={proyecto.skill5} alt="Skill" /></div> <h4>{proyecto.skill5name}</h4></div>
                             </div>
-                            <div className='link-ver-sitio'><a className='ver-sitio' href={proyecto.link}>Ver sitio</a>
+                            <div className='link-ver-sitio'><a target='_blank' className='ver-sitio' href={proyecto.link}>Ver sitio</a>
                                 </div>
                         </div>   
                     

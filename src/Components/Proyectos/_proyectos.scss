@@ -1,6 +1,5 @@
 #proyectos,
 #formacion {
-
     margin-top: 14rem;
 
 
@@ -11,6 +10,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         margin: 10rem 0;
 
 
@@ -26,17 +26,18 @@
 
         .card-projects-img {
             display: flex !important;
-            align-items: start !important;
+            align-items: center !important;
             justify-content: center !important;
 
             .video-project {
-                width: 75%;
+                width: 85%;
                 height: 100%;
                 border-radius: 0.5rem;
                 opacity: 0.75;
                 /* Ajusta según sea necesario */
                 position: relative;
                 z-index: -1 !important;
+                padding-top: 4rem;
 
             }
 
@@ -44,6 +45,8 @@
 
         .link-ver-sitio {
             margin-top: 3rem;
+            display: flex;
+            justify-content: center;
         }
 
         .card-projects-description {
