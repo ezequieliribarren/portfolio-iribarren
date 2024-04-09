@@ -1,5 +1,5 @@
-.navbar-desktop{
-   margin-top: 4rem;
+.navbar-desktop {
+    margin-top: 4rem;
 }
 
 .nav-item {
@@ -30,82 +30,102 @@
         color: #00DAA6 !important;
     }
 }
-.active{
-       color: #00DAA6 !important; 
+
+.active {
+    color: #00DAA6 !important;
 }
+
 .active .line {
     width: 6rem;
-    background-color: #00DAA6 !important; 
+    background-color: #00DAA6 !important;
 
 }
 
-.navbar, .offcanvas {
+.navbar,
+.offcanvas {
     z-index: 99999999999999 !important;
-  }
-.navbar{
+}
+
+.navbar {
     display: none;
     background-color: #004737 !important;
     box-shadow: 1px 1px 6px rgb(0, 22, 1);
     z-index: 99999999999999 !important;
 
-   
-    
-    li{
-        color: #142620; 
-        
 
-            .navlogo{
-                width: 3rem !important;
-            }
+
+    li {
+        color: #142620;
+
+
+        .navlogo {
+            width: 3rem !important;
+        }
 
     }
 
-   
+
 }
 
- .navbar-toggler-icon{
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
     width: 2rem;
-    }
-  
-.offcanvas-body, .offcanvas-header{
+}
+
+.offcanvas-body,
+.offcanvas-header {
     background-color: #004737 !important;
     z-index: 999999 !important;
 
 
-    li{
+    li {
         color: white;
     }
 }
 
-.offcanvas-header{
-    .btn-close{
-        background-color: #007a5e ;
+.offcanvas-header {
+    .btn-close {
+        background-color: #007a5e;
     }
 }
 
 .offcanvas.offcanvas-end {
-    transition: transform 0.3s ease-in-out; /* Ajusta la duración y el tipo de transición según tus preferencias */
-  }
-  
-  /* Otros estilos que cambian cuando el navbar se muestra o se oculta */
-  .offcanvas.offcanvas-end.show {
+    transition: transform 0.3s ease-in-out;
+    /* Ajusta la duración y el tipo de transición según tus preferencias */
+}
+
+/* Otros estilos que cambian cuando el navbar se muestra o se oculta */
+.offcanvas.offcanvas-end.show {
     transform: translateX(0);
-  }
-  
-  .offcanvas.offcanvas-end:not(.show) {
+}
+
+.offcanvas.offcanvas-end:not(.show) {
     transform: translateX(100%);
-  }
-  
-  /* Otros estilos de transición según sea necesario */
-  
+}
+
+/* Otros estilos de transición según sea necesario */
+
+.navbar-mobile {
+    transition: transform 0.3s ease;
+    .nav-item {
+    transition: transform 0.3s ease;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+}
+}
+
+
+
 
 
 @media (max-width: 1200px) {
-.navbar{
-    display: inherit !important;
-}
-.navbar-desktop{
-    display: none;
-}
+    .navbar-mobile {
+        display: inherit !important;
+    }
+
+    .navbar-desktop {
+        display: none;
+    }
 }
